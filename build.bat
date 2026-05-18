@@ -1,10 +1,10 @@
 @echo off
-rem DCRsystem 自動アノテーションツール の .exe ビルド
+rem A2B 自動アノテーションツール の .exe ビルド
 cd /d "%~dp0"
-uv run pyinstaller DCRsystem_AutoAnnotator.spec --noconfirm
+uv run pyinstaller A2B.spec --noconfirm
 echo.
 echo ============================================================
 echo ビルド完了:
-echo   dist\DCRsystem_AutoAnnotator\DCRsystem_AutoAnnotator.exe
+echo   dist\A2B\A2B.exe
 echo ============================================================
 pause

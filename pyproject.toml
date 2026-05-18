@@ -1,5 +1,5 @@
 [project]
-name = "dcrsystem-auto-annotator"
+name = "a2b"
 version = "0.1.0"
 description = "YOLO学習用の自動アノテーションツール"
 requires-python = ">=3.11"

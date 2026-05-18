@@ -37,7 +37,7 @@ from autoannotator.models import (
 )
 from autoannotator.result_panel import ResultPanel
 
-APP_NAME = "DCRsystem 自動アノテーションツール"
+APP_NAME = "A2B"
 
 
 class MainWindow(QMainWindow):

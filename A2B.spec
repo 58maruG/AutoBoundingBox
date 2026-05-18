@@ -1,8 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
-"""DCRsystem 自動アノテーションツール の PyInstaller ビルド定義。
+"""A2B 自動アノテーションツール の PyInstaller ビルド定義。
 
-ビルド: uv run pyinstaller DCRsystem_AutoAnnotator.spec --noconfirm
-出力  : dist/DCRsystem_AutoAnnotator/DCRsystem_AutoAnnotator.exe
+ビルド: uv run pyinstaller A2B.spec --noconfirm
+出力  : dist/A2B/A2B.exe
 """
 
 from PyInstaller.utils.hooks import collect_all, copy_metadata
@@ -60,7 +60,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name="DCRsystem_AutoAnnotator",
+    name="A2B",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -80,5 +80,5 @@ coll = COLLECT(
     strip=False,
     upx=False,
     upx_exclude=[],
-    name="DCRsystem_AutoAnnotator",
+    name="A2B",
 )

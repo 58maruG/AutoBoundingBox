@@ -50,7 +50,7 @@ def _write_data_yaml(
     with open(
         os.path.join(output_dir, "data.yaml"), "w", encoding="utf-8"
     ) as f:
-        f.write("# DCRsystem 自動アノテーションツールが書き出したクラス定義\n")
+        f.write("# A2B 自動アノテーションツールが書き出したクラス定義\n")
         if splits:
             f.write(f"path: {output_dir}\n")
             f.write("train: images/train\n")

@@ -19,3 +19,6 @@ selftest_result.json
 Thumbs.db
 .vscode/
 .idea/
+
+# Claude 設定
+.claude/
